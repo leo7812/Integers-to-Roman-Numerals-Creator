@@ -107,7 +107,7 @@ int main()
                 }
             }
    
-    for(int i=0; i<size; i++){
+    for(int i=1; i<size; i++){  //Reposting code caused bug where 0 would appear before all roman numerals, changed i=0 to i=1
         cout<<letters[i];
     }
     
